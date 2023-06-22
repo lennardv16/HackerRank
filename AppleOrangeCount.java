@@ -37,7 +37,7 @@ class Result {
         }
 
         for (Integer i : oranges) {
-            int orangePos = a + i;
+            int orangePos = b + i;
             if (orangePos >= s && orangePos <=t) {
                 orangeCount++;
             }
