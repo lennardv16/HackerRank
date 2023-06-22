@@ -26,13 +26,13 @@ import java.util.Scanner;
 
 public class Series {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int queries = scanner.nextInt();
+        Scanner scan = new Scanner(System.in);
+        int queries = scan.nextInt();
 
         for (int i = 0; i < queries; i++) {
-            int a = scanner.nextInt();
-            int b = scanner.nextInt();
-            int n = scanner.nextInt();
+            int a = scan.nextInt();
+            int b = scan.nextInt();
+            int n = scan.nextInt();
 
             int result = a;
             for (int j = 0; j < n; j++) {
@@ -41,7 +41,5 @@ public class Series {
             }
             System.out.println();
         }
-
-        scanner.close();
     }
 }
